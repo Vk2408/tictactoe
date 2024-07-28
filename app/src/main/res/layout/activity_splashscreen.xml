@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#215E8E"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashscreen"
+    android:paddingTop="35dp">
+
+    <!-- Text "TIC TAC TOE" at the top -->
+    <TextView
+        android:id="@+id/ticTacToeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIC TAC TOE"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="#D1A110"
+        android:layout_centerHorizontal="true"
+        />
+
+    <!-- Image View -->
+
+    <!-- Text below the image view -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="344dp"
+        android:layout_height="352dp"
+        android:layout_below="@id/ticTacToeText"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        app:srcCompat="@drawable/ffront" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:text="Unleash your inner\n        strategist."
+        android:textColor="#F44336"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
